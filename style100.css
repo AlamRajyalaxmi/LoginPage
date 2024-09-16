@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding:0 ;
+}
+
+body {
+    background-image: url("moonknignt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+fieldset{
+    align-items: center;
+    width: 300px;
+    height:300px;
+    padding: 30px 20px;
+    margin: 250px auto;
+    background: rgba(29, 46, 61, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius:  solid #000;
+    border-radius: 10px;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+input[type="text"]
+{
+    width:250px ;
+    height: 25px;
+
+}
+input[type="text"]:hover{
+    background-color: rgb(144, 174, 174);
+}
+
+label{
+    color: rgb(175, 179, 179);
+}
+input[type="submit"]{
+    margin: auto;
+    border-radius: solid 50%;
+    cursor: pointer;
+    font-size:30px ;
+    color: rgb(66, 66, 66);
+    border-radius: solid 25px;
+    /* transition: background-color 0.3s ease; */
+}
+input[type="submit"]:hover{
+    background-color: rgb(2, 127, 127);
+}
+
